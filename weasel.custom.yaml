@@ -8,8 +8,7 @@ patch:
   "preset_color_schemes/sakura":
     author: SakuraKooi
     back_color: 0xF6F6F6
-    border_color: 0xfcebDC
-    #border_color: 0xF08E2B
+    border_color: 0xF08E2B
     candidate_text_color: 0x6F6C6B
     comment_text_color: 0x6F6C6B
     hilited_back_color: ""
@@ -26,3 +25,8 @@ patch:
   "style/font_point": 12
   "style/horizontal": true
   "style/inline_preedit": true
+  
+  "style/layout/border_height": 1
+  "style/layout/border_width": 1
+  "style/layout/margin_x": 10
+  "style/layout/margin_y": 6
