@@ -2,10 +2,10 @@ customization:
   distribution_code_name: Weasel
   distribution_version: 0.14.3
   generator: "Weasel::UIStyleSettings"
-  modified_time: "Thu Sep  9 19:40:18 2021"
+  modified_time: "Wed Oct 20 14:38:13 2021"
   rime_version: 1.5.3
 patch:
-  "preset_color_schemes/sakura":
+  "preset_color_schemes/sakura_light":
     author: SakuraKooi
     back_color: 0xF6F6F6
     border_color: 0xF08E2B
@@ -18,14 +18,28 @@ patch:
     hilited_comment_text_color: 0xF08E2B
     hilited_text_color: ""
     label_color: 0x6F6C6B
-    name: "SakuraKooi定制"
+    name: "SakuraKooi定制_blue"
     text_color: 0x6F6C6B
-  "style/color_scheme": sakura
+  "preset_color_schemes/sakura_dark":
+    author: SakuraKooi
+    back_color: 0x424242
+    border_color: 0x424242
+    candidate_text_color: 0xeeeeee
+    comment_text_color: 0xeeeeee
+    hilited_back_color: ""
+    hilited_candidate_back_color: 0x424242
+    hilited_candidate_label_color: 0x00FFC6
+    hilited_candidate_text_color: 0x00FFC6
+    hilited_comment_text_color: 0x00FFC6
+    hilited_text_color: ""
+    label_color: 0xeeeeee
+    name: "SakuraKooi定制_dark"
+    text_color: 0xeeeeee
+  "style/color_scheme": sakura_dark
   "style/font_face": "Microsoft YaHei"
   "style/font_point": 12
   "style/horizontal": true
   "style/inline_preedit": true
-  
   "style/layout/border_height": 1
   "style/layout/border_width": 1
   "style/layout/margin_x": 10
